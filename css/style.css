@@ -1,15 +1,18 @@
+.container-fluid {
+  padding: 0px;
+}
+
 .container-fluid .top-title {
-  background: #388CB9;
+  background: #388cb9;
   color: #fff;
   margin: 0;
   padding: 15px;
 }
 
 .container-fluid .background-cover {
-  background-image: url("../images/bg-min.jpg");
+  background-image: url("../images/header_bg.png");
   width: 100%;
   max-height: 500px;
-  box-shadow: inset 0 0 0 250px #759aaf;
   color: #fff;
   float: left;
   text-align: center;
@@ -21,6 +24,14 @@
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.container-fluid .profile-cover p {
+  color: #f9fafb;
+}
+
+.container-fluid .profile-cover .fa {
+  color: #fff;
 }
 
 .container-fluid .profile-cover .image-cover {
@@ -129,19 +140,44 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
   float: left;
   width: 100%;
   text-align: left;
-  margin-bottom: 0px;
-  color: #337ab7;
+  margin-bottom: 30px;
+  color: #000;
+  position: relative;
+  z-index: 1;
+  min-height: 45px;
+}
+
+.container-fluid .card .tab-content h2::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  height: 0px;
+  width: 4%;
+  /* or 100px */
+  border-bottom: 2px solid #388cb9;
 }
 
 .container-fluid .card .tab-content .text-content {
   float: left;
-  width: 60%;
+  width: 56%;
+  margin-right: 40px;
 }
 
 .container-fluid .card .tab-content .text-content .sub-titles, .container-fluid .card .tab-content .text-content p {
   float: left;
   width: 100%;
   text-align: left;
+  color: #808080;
+}
+
+.container-fluid .card .tab-content .text-content .sub-titles {
+  font-weight: bold;
+}
+
+.container-fluid .card .tab-content .text-content .read_more {
+  color: #388cb9;
+  border-bottom: 1px solid #388cb9;
 }
 
 .container-fluid .card .tab-content .video-content {
@@ -163,19 +199,15 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
 .container-fluid .chat-with-me-cover {
   float: left;
   width: 100%;
-  background: #ccc;
+  background: #f7f7f7;
   padding: 20px 0 0 0;
   margin-top: 20px;
 }
 
-.container-fluid .chat-with-me-cover .chat-with-me-inner-cover {
-  margin: 0 auto;
-  width: 500px;
-}
-
 .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .chat-image-cover {
   float: left;
-  width: 20%;
+  width: 10%;
+  margin-left: 160px;
 }
 
 .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .chat-image-cover img {
@@ -192,7 +224,8 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
   float: left;
   width: 100%;
   text-align: left;
-  font-weight: bold;
+  font-size: 26px;
+  color: #000;
 }
 
 .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .fa {
@@ -213,8 +246,21 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
   float: left;
   text-align: center;
   width: 100%;
-  color: #337ab7;
+  color: #388cb9;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  min-height: 45px;
+}
+
+.container-fluid .carousel-reviews h2::after {
+  content: '';
+  position: absolute;
+  left: 47%;
+  bottom: 0px;
+  width: 6%;
+  border-bottom: 2px solid #388cb9;
+  text-align: center;
 }
 
 .container-fluid .carousel-reviews .carousel-control.left, .container-fluid .carousel-reviews .carousel-control.right {
@@ -241,7 +287,7 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
 }
 
 .container-fluid .carousel-reviews .block-text p {
-  color: #585858;
+  color: #848484;
   line-height: 20px;
   float: left;
   width: 100%;
@@ -265,7 +311,7 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
 }
 
 .container-fluid .carousel-reviews .author-title {
-  color: #4285F4;
+  color: #388cb9;
   float: left;
   width: 100%;
   text-align: center;
@@ -293,8 +339,20 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
   float: left;
   text-align: center;
   width: 100%;
-  color: #337ab7;
+  color: #388cb9;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  min-height: 45px;
+}
+
+.container-fluid .articles-cover h2::after {
+  width: 5%;
+  left: 47%;
+  bottom: 0;
+  position: absolute;
+  content: '';
+  border-bottom: 2px solid #388cb9;
 }
 
 .container-fluid .articles-cover img {
@@ -313,24 +371,33 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
   float: left;
   width: 100%;
   background: #fff;
-  box-shadow: 2px 2px 10px 1px #ccc;
+  box-shadow: 2px 2px 10px 1px #c5c5c5;
   padding: 20px 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 .container-fluid .articles-cover .article-text-cover h5, .container-fluid .articles-cover .article-text-cover p {
   float: left;
   width: 100%;
   text-align: left;
+  color: #666666;
+}
+
+.container-fluid .articles-cover .article-text-cover h5 {
+  font-weight: bold;
+  line-height: 18px;
 }
 
 .container-fluid .articles-cover .article-text-cover button {
   float: left;
+  padding: 10px 30px;
 }
 
 .container-fluid .footer-section {
-  background-color: #197CA4;
+  background-color: #388cb9;
   float: left;
   width: 100%;
   color: #fff;
@@ -375,7 +442,7 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
 .container-fluid .copyright-section {
   float: left;
   width: 100%;
-  background: #197C7C;
+  background: #337ea6;
   text-align: center;
   color: #fff;
 }
@@ -386,4 +453,91 @@ a:focus, .container-fluid .card .tab-cover .nav-tabs > li.active > a:hover {
   text-align: center;
   padding: 20px 0px;
   margin: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .container-fluid .card .tab-content .text-content, .container-fluid .card .tab-content .video-content {
+    width: 100%;
+  }
+  .container-fluid .card .tab-content .text-content .sub-titles, .container-fluid .card .tab-content .text-content p {
+    text-align: justify;
+  }
+  .container-fluid .card .tab-cover .nav-tabs li a {
+    padding: 30px 17px;
+  }
+  .container-fluid .card .tab-content h2::after {
+    width: 10%;
+  }
+  .container-fluid .card .tab-cover .nav-tabs {
+    width: auto;
+  }
+  .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .chat-image-cover {
+    width: 25%;
+    margin-left: 105px;
+  }
+  .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .chat-with-me-text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .chat-text-cover {
+    width: 80%;
+  }
+  .container-fluid .carousel-reviews .carousel-control.left {
+    left: 16px;
+  }
+  .container-fluid .carousel-reviews .carousel-control.right {
+    right: 16px;
+  }
+  .container-fluid .articles-cover .article-content-cover {
+    margin-bottom: 30px;
+  }
+  .container-fluid .footer-section .for_tab {
+    float: left;
+    width: 50%;
+    min-height: 190px;
+  }
+  .container-fluid .footer-section .for_tab:last-child {
+    width: 100%;
+  }
+  .container-fluid .profile-cover p {
+    color: #f9fafb;
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .container-fluid {
+    padding: 0 20px;
+  }
+  .container-fluid .card .tab-content .text-content {
+    width: 53%;
+  }
+  .container-fluid .card .tab-content .text-content .sub-titles, .container-fluid .card .tab-content .text-content p {
+    text-align: justify;
+  }
+  .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .chat-text-cover {
+    width: 64%;
+  }
+  .container-fluid .chat-with-me-cover .chat-with-me-inner-cover .chat-image-cover {
+    margin-left: 130px;
+  }
+  .container-fluid .carousel-reviews .carousel-control.left {
+    left: 0px;
+  }
+  .container-fluid .carousel-reviews .carousel-control.right {
+    right: 0px;
+  }
+  .container-fluid .footer-section .for_tab {
+    float: left;
+    width: 33%;
+    min-height: 190px;
+  }
+  .container-fluid .footer-section .for_tab:last-child {
+    width: 60%;
+  }
+  .container-fluid .articles-cover .article-content-cover {
+    margin-bottom: 30px;
+  }
 }
