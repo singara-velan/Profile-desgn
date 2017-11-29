@@ -351,8 +351,6 @@ body {
 }
 
 .container .articles-cover {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d3d3d3+0,ededed+78,ededed+90,ffffff+98,ffffff+98,f3f3f3+100 */
-  background: rgba(216, 216, 216, 0.2);
   /* IE6-9 */
   float: left;
   width: 100%;
@@ -553,9 +551,17 @@ body {
   width: 100%;
 }
 
-@media (max-width: 992px) {
-  width: 16.66666667%;
+.chat-with-me-cover-bg {
   float: left;
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.articles-cover-bg {
+  background: rgba(216, 216, 216, 0.2);
+  float: left;
+  width: 100%;
+  margin-top: 30px;
 }
 
 @media all and (max-width: 359px) and (min-width: 300px) {
