@@ -188,6 +188,116 @@ body {
                 background: red;
                 float: left;
             }
+            //how do i work
+            .how_i_work {
+            .carousel-buttons{
+                bottom:-70px;
+                
+             .active{
+                background:#388cb9;
+             }
+             li{
+                background: #d8d8d8;
+                width: 12px;
+                height: 12px;
+             }
+            }
+            
+            h4{
+                color: #f5a623;
+                float: left;
+                width: 100%;
+                text-align: left;
+                margin-bottom:0px;
+            }
+            .text-content{
+             width:60%;
+                .sub-titles, p{
+                    color: #000;
+                }
+                h2{
+                    line-height: 35px;
+                    font-weight: bold;
+                    font-size: 23px;
+                }
+                h2::after{
+                    border-bottom: none;                    
+                }
+                
+
+            }
+            .video-content{
+                width: 35%;
+                margin-top:30px;
+            }
+                p{
+                    float: left;
+                    width: 100%;
+                    text-align: left;
+                    color: #808080; 
+                }
+          }
+                                            // my specialize
+                .my_specialize{
+                    .image-text-cover{
+                        float: left;
+                        width: 100%;
+                    }
+                    .spec-image-cover{
+                        float: left;
+                        margin:30px 30px 0 0;
+                        width: 30%;
+                        position: relative;                        
+                            // &:after {
+                            //     content:'\A';
+                            //     width:100%; 
+                            //     height:100%;
+                            //     top:0px;
+                            //     left:0;
+                            //     background:rgba(0,0,0,0.6);
+                            //     position:absolute;
+                            //     opacity:0.8;
+                            // }
+                        img{
+                            float: left;
+                            width:100%;
+                            border-radius: 5px;
+                        }
+                        .spec-text-cover{                        
+                            position: absolute;
+                            bottom: 0px;                            
+                            width: 100%; 
+                            left: 0px;                  
+                           p{
+                                color: #000;
+                                bottom: 15px;
+                                float: left;
+                                width: 100%;
+                                text-align: center;
+                                margin-bottom: -8px;
+                           }
+                           .fa{
+                              color: #000; 
+                           }
+                        // &:after {
+                        //             content:'\A';
+                        //             width:100%; 
+                        //             height:100%;
+                        //             top:0px;
+                        //             left:0;
+                        //             background:rgba(0,0,0,0.6);
+                        //             position:absolute;
+                        //             opacity:0.5;
+                        //         }
+
+                        .fa::before {
+                            position: absolute;
+                            bottom: 15px;
+                            right: 15px;
+                        }
+                        }
+                    }
+                }
         }
     } //tab end
     //chat with me
@@ -557,6 +667,31 @@ body {
                 .tab-content h2::after {
                     width: 14%;    
                 }
+                
+            .tab-content {
+                //how i work
+            .how_i_work {
+                        .carousel-buttons{
+                            bottom:-70px;
+                        }
+                        .text-content{
+                            width:100%;
+                            float: left;             
+                        }
+                        .video-content{
+                            width: 100%;
+                            margin-top:30px;
+                        }
+                }
+                //my specialize
+                 .my_specialize .spec-image-cover {
+                            float: left;
+                            margin: 30px 30px 0 0;
+                            width: 100%;
+                            position: relative;
+                }
+            }
+                
         }
     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
         right: 50%;
@@ -632,6 +767,29 @@ body {
                 .tab-content h2::after {
                     width: 14%;    
                 }
+                        .tab-content {
+                //how i work
+            .how_i_work {
+                        .carousel-buttons{
+                            bottom:-70px;
+                        }
+                        .text-content{
+                            width:100%;
+                            float: left;             
+                        }
+                        .video-content{
+                            width: 100%;
+                            margin-top:30px;
+                        }
+                }
+                //my specialize
+                 .my_specialize .spec-image-cover {
+                            float: left;
+                            margin: 30px 30px 0 0;
+                            width: 100%;
+                            position: relative;
+                }
+            }
         }
     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
         right: 50%;
@@ -709,6 +867,29 @@ body {
                 .tab-content h2::after {
                     width: 14%;    
                 }
+                        .tab-content {
+                //how i work
+            .how_i_work {
+                        .carousel-buttons{
+                            bottom:-70px;
+                        }
+                        .text-content{
+                            width:100%;
+                            float: left;             
+                        }
+                        .video-content{
+                            width: 100%;
+                            margin-top:30px;
+                        }
+                }
+                //my specialize
+                 .my_specialize .spec-image-cover {
+                            float: left;
+                            margin: 30px 30px 0 0;
+                            width: 100%;
+                            position: relative;
+                }
+            }
         }
     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
         right: 50%;
@@ -785,6 +966,29 @@ body {
                 .tab-content h2::after {
                     width: 14%;    
                 }
+                        .tab-content {
+                //how i work
+            .how_i_work {
+                        .carousel-buttons{
+                            bottom:-70px;
+                        }
+                        .text-content{
+                            width:100%;
+                            float: left;             
+                        }
+                        .video-content{
+                            width: 100%;
+                            margin-top:30px;
+                        }
+                }
+                //my specialize
+                 .my_specialize .spec-image-cover {
+                            float: left;
+                            margin: 30px 30px 0 0;
+                            width: 100%;
+                            position: relative;
+                }
+            }
         }
     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
         right: 50%;
@@ -873,6 +1077,29 @@ body {
                 .tab-content h2::after {
                     width: 6%;    
                 }
+                        .tab-content {
+                //how i work
+            .how_i_work {
+                        .carousel-buttons{
+                            bottom:-70px;
+                        }
+                        .text-content{
+                            width:100%;
+                            float: left;             
+                        }
+                        .video-content{
+                            width: 100%;
+                            margin-top:30px;
+                        }
+                }
+                //my specialize
+                 .my_specialize .spec-image-cover {
+                            float: left;
+                            margin: 30px 30px 0 0;
+                            width: 45%;
+                            position: relative;
+                }
+            }
         }
     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
         right: 50%;
@@ -935,5 +1162,7 @@ body {
         //2
    
 }
+
+
 
 
