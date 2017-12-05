@@ -221,6 +221,102 @@ body {
   float: left;
 }
 
+.container .card .tab-content .how_i_work .carousel-buttons {
+  bottom: -70px;
+}
+
+.container .card .tab-content .how_i_work .carousel-buttons .active {
+  background: #388cb9;
+}
+
+.container .card .tab-content .how_i_work .carousel-buttons li {
+  background: #d8d8d8;
+  width: 12px;
+  height: 12px;
+}
+
+.container .card .tab-content .how_i_work h4 {
+  color: #f5a623;
+  float: left;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.container .card .tab-content .how_i_work .text-content {
+  width: 60%;
+}
+
+.container .card .tab-content .how_i_work .text-content .sub-titles, .container .card .tab-content .how_i_work .text-content p {
+  color: #000;
+}
+
+.container .card .tab-content .how_i_work .text-content h2 {
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.container .card .tab-content .how_i_work .text-content h2::after {
+  border-bottom: none;
+}
+
+.container .card .tab-content .how_i_work .video-content {
+  width: 35%;
+  margin-top: 30px;
+}
+
+.container .card .tab-content .how_i_work p {
+  float: left;
+  width: 100%;
+  text-align: left;
+  color: #808080;
+}
+
+.container .card .tab-content .my_specialize .image-text-cover {
+  float: left;
+  width: 100%;
+}
+
+.container .card .tab-content .my_specialize .spec-image-cover {
+  float: left;
+  margin: 30px 30px 0 0;
+  width: 30%;
+  position: relative;
+}
+
+.container .card .tab-content .my_specialize .spec-image-cover img {
+  float: left;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container .card .tab-content .my_specialize .spec-image-cover .spec-text-cover {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+.container .card .tab-content .my_specialize .spec-image-cover .spec-text-cover p {
+  color: #000;
+  bottom: 15px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -8px;
+}
+
+.container .card .tab-content .my_specialize .spec-image-cover .spec-text-cover .fa {
+  color: #000;
+}
+
+.container .card .tab-content .my_specialize .spec-image-cover .spec-text-cover .fa::before {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
 .container .chat-with-me-cover {
   float: left;
   width: 100%;
@@ -591,6 +687,23 @@ body {
   .container .card .tab-content h2::after {
     width: 14%;
   }
+  .container .card .tab-content .how_i_work .carousel-buttons {
+    bottom: -70px;
+  }
+  .container .card .tab-content .how_i_work .text-content {
+    width: 100%;
+    float: left;
+  }
+  .container .card .tab-content .how_i_work .video-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .container .card .tab-content .my_specialize .spec-image-cover {
+    float: left;
+    margin: 30px 30px 0 0;
+    width: 100%;
+    position: relative;
+  }
   .container .carousel-control .glyphicon-chevron-right, .container .carousel-control .icon-next {
     right: 50%;
     margin-right: 15px;
@@ -663,6 +776,23 @@ body {
   }
   .container .card .tab-content h2::after {
     width: 14%;
+  }
+  .container .card .tab-content .how_i_work .carousel-buttons {
+    bottom: -70px;
+  }
+  .container .card .tab-content .how_i_work .text-content {
+    width: 100%;
+    float: left;
+  }
+  .container .card .tab-content .how_i_work .video-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .container .card .tab-content .my_specialize .spec-image-cover {
+    float: left;
+    margin: 30px 30px 0 0;
+    width: 100%;
+    position: relative;
   }
   .container .carousel-control .glyphicon-chevron-right, .container .carousel-control .icon-next {
     right: 50%;
@@ -737,6 +867,23 @@ body {
   .container .card .tab-content h2::after {
     width: 14%;
   }
+  .container .card .tab-content .how_i_work .carousel-buttons {
+    bottom: -70px;
+  }
+  .container .card .tab-content .how_i_work .text-content {
+    width: 100%;
+    float: left;
+  }
+  .container .card .tab-content .how_i_work .video-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .container .card .tab-content .my_specialize .spec-image-cover {
+    float: left;
+    margin: 30px 30px 0 0;
+    width: 100%;
+    position: relative;
+  }
   .container .carousel-control .glyphicon-chevron-right, .container .carousel-control .icon-next {
     right: 50%;
     margin-right: 15px;
@@ -809,6 +956,23 @@ body {
   }
   .container .card .tab-content h2::after {
     width: 14%;
+  }
+  .container .card .tab-content .how_i_work .carousel-buttons {
+    bottom: -70px;
+  }
+  .container .card .tab-content .how_i_work .text-content {
+    width: 100%;
+    float: left;
+  }
+  .container .card .tab-content .how_i_work .video-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .container .card .tab-content .my_specialize .spec-image-cover {
+    float: left;
+    margin: 30px 30px 0 0;
+    width: 100%;
+    position: relative;
   }
   .container .carousel-control .glyphicon-chevron-right, .container .carousel-control .icon-next {
     right: 50%;
@@ -890,6 +1054,23 @@ body {
   }
   .container .card .tab-content h2::after {
     width: 6%;
+  }
+  .container .card .tab-content .how_i_work .carousel-buttons {
+    bottom: -70px;
+  }
+  .container .card .tab-content .how_i_work .text-content {
+    width: 100%;
+    float: left;
+  }
+  .container .card .tab-content .how_i_work .video-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .container .card .tab-content .my_specialize .spec-image-cover {
+    float: left;
+    margin: 30px 30px 0 0;
+    width: 45%;
+    position: relative;
   }
   .container .carousel-control .glyphicon-chevron-right, .container .carousel-control .icon-next {
     right: 50%;
